@@ -9,8 +9,21 @@
 } */
 
 * {
-  background-color: #787878;
+  background-color: #F2F2F2;
 
+}
+button{
+  margin-top:60px;
+  border-radius:11px;
+  padding: 10px 40px;
+
+}
+.container{
+  border: solid;
+  height:120px;
+  width:120px;
+  background-color:;
+  margin : 60px auto;
 }
 
 .App-link {
