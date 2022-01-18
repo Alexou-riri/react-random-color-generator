@@ -7,6 +7,7 @@ export default function PropsGreeting(props) {
         fontSize: '50px',
         width: '100%',
         fontweight: 'bold',
+        fontFamily:'Verdana'
       }}
     >
       Welcome to the Random Color Generator !

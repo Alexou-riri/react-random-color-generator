@@ -8,7 +8,7 @@ function App() {
       <PropsGreeting />
 
 
-    <a>vdxvdxd</a>
+
       <PropsButton />
       </div>
   );

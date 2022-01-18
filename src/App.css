@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  ;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
@@ -9,21 +10,34 @@
 } */
 
 * {
-  background-color: #F2F2F2;
+  background-color: #FFFFFF;
+  font-family: 'Verdana, sans-serif';
+}
 
+h1, h2 {
+  font-family:'Verdana, sans-serif'
 }
 button{
   margin-top:60px;
   border-radius:11px;
   padding: 10px 40px;
+  font-family: 'Arial, sans-serif';
 
+}
+
+button:hover {
+box-shadow:none;
+transform: translate3d(0, 0, 0)
 }
 .container{
   border: solid;
   height:120px;
-  width:120px;
+  width:200px;
   background-color:;
   margin : 60px auto;
+  border-radius:20px;
+  font-family: 'Verdana, sans-serif';
+
 }
 
 .App-link {

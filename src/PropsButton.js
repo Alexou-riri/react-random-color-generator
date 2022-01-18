@@ -26,15 +26,15 @@ export default function RandomColor(){
 
   return (
     <div>
-      <button style= {{ color: color }}
+      <button style= {{ color: color }} // create button
           onClick ={generateColor}
         >
-     <h1> Click</h1>
-     <h2>Don't be shy</h2>
+     <h1 style={{fontFamily:'Verdana'}}> Click</h1>
+     <h2 style={{fontFamily:'Verdana'}}>Don't be shy</h2>
      </button>
 
      <div style={{ backgroundColor: color}} className='container'>
-        <a>Color : ${}</a>
+        <a style={{ backgroundColor: color, fontFamily:'Verdana', verticalAlign: 'middle'}}>Color : {color}</a>
       </div>
     </div>
 
