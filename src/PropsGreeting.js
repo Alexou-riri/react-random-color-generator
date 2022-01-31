@@ -10,8 +10,6 @@ export default function PropsGreeting(props) {
         color: '#1D10C1',
         fontweight: 'bold',
         fontFamily: 'Verdana',
-
-        //backgroundColor: '#FBE3B7',
       }}
     >
       Welcome to the Random Color Generator !
